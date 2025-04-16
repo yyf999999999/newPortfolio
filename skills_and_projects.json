@@ -1,0 +1,213 @@
+{
+    "programming_languages": [
+        {
+            "img": "",
+            "name": "JavaScript",
+            "explanation": "生成AIを活用しながら単純なアクションゲームやアプリ、システムを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "TypeScript",
+            "explanation": "生成AIを活用しながらバックエンドのAPIやフロントエンドのアプリを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "HTML/CSS",
+            "explanation": "Webアプリを作る際に最低限のUIを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "Python",
+            "explanation": "Flaskを利用してWebスクレイピングを利用した簡単なWebアプリを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "C",
+            "explanation": "ファイルの入出力やポインタを利用した簡単なプログラムを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "C++",
+            "explanation": "ソートや探索などの単純なアルゴリズムのプログラムを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "C#",
+            "explanation": "Unityを利用してスライドパズルのような単純なゲームを作れる程度"
+        },
+        {
+            "img": "",
+            "name": "R",
+            "explanation": "データからグラフを作成したり、簡単な統計解析を行うことができる程度"
+        }
+    ],
+    "development_environments": [
+        {
+            "img": "",
+            "name": "VSCode",
+            "explanation": "授業や趣味でメインとして利用。<br>拡張機能のダウンロードやgithubとの連携、仮想環境の構築などができる程度。"
+        },
+        {
+            "img": "",
+            "name": "GoogleColab",
+            "explanation": "Pythonの授業で使用。<br>マークアップを利用した記述やインストールしたライブラリを用いて簡単なプログラムを作れる程度。"
+        },
+        {
+            "img": "",
+            "name": "Github",
+            "explanation": "学校の授業や趣味で作った作品を公開したり、チームで開発するときに使用。<br>Github Actionsを用いて任意の操作を実行させたりできる程度。"
+        },
+        {
+            "img": "",
+            "name": "その他",
+            "explanation": "TinkerCAD, ArduinoIDE, MakeCode, Deeds-DCS, Ambient, Scratch, Vercel など"
+        }
+    ],
+    "projects": [
+        {
+            "img": "",
+            "name": "ボールころころ3D2",
+            "time": "中学生",
+            "environment": [
+                "Scratch"
+            ],
+            "explanation": "床とジャンプ床のみのシンプルな3Dゲーム。"
+        },
+        {
+            "img": "",
+            "name": "roll and run!",
+            "time": "中学生",
+            "environment": [
+                "Scratch"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "新横スクロールアクションゲーム2",
+            "time": "中学生",
+            "environment": [
+                "Scratch"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "アクションゲーム",
+            "time": "高専1年生",
+            "environment": [
+                "HTML/CSS",
+                "JavaScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "英単語学習",
+            "time": "高専2年生",
+            "environment": [
+                "HTML/CSS",
+                "JavaScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "将棋もどき",
+            "time": "高専2年生",
+            "environment": [
+                "Python",
+                "GoogleColab"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "単位を落とすな!",
+            "time": "高専2年生",
+            "environment": [
+                "HTML/CSS",
+                "JavaScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "フックショットアドベンチャー",
+            "time": "高専2年生",
+            "environment": [
+                "Python",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "グラフビューアー",
+            "time": "高専2年生",
+            "environment": [
+                "Python",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "ナンプレオート",
+            "time": "高専3年生",
+            "environment": [
+                "HTML/CSS",
+                "JavaScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "画像表示",
+            "time": "高専3年生",
+            "environment": [
+                "HTML/CSS",
+                "JavaScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "canvasの使い方",
+            "time": "高専3年生",
+            "environment": [
+                "HTML/CSS",
+                "JavaScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "Todoアプリ",
+            "time": "高専3年生",
+            "environment": [
+                "HTML/CSS",
+                "TypeScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        },
+        {
+            "img": "",
+            "name": "Coord-RouteMapMaker",
+            "time": "高専3年生",
+            "environment": [
+                "HTML/CSS",
+                "TypeScript",
+                "VSCode"
+            ],
+            "explanation": ""
+        }
+    ]
+}
