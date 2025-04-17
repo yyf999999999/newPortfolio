@@ -104,7 +104,6 @@ main{
     border-radius: 12px;
     padding: 2px 6px;
     margin: 2px;
-    cursor: pointer;
 }
 
 .selected{
@@ -113,6 +112,11 @@ main{
 
 #programmingLanguages > .category:hover, #developmentEnvironments > .category:hover{
     background-color: #BBB;
+    cursor: pointer;
+}
+
+#environmentButtons > .category:hover{
+    cursor: pointer;
 }
 
 #programmingLanguages > .category:active , #developmentEnvironments > .category:active{
@@ -138,9 +142,10 @@ main{
 
 #projects > *{
     margin: 10px;
+    margin-top: 100px;
 }
 
-.modal {
+.modal{
     display: none;
     position: fixed;
     z-index: 1000;
@@ -151,7 +156,7 @@ main{
     background-color: rgba(0,0,0,0.5);
 }
 
-.modal-content {
+.modal-content{
     background-color: #fff;
     padding: 10px;
     border-radius: 8px;
@@ -163,7 +168,7 @@ main{
     transform: translate(-50%, -50%);
 }
 
-.close-button {
+.close-button{
     position: absolute;
     top: 10px;
     right: 15px;
@@ -171,39 +176,9 @@ main{
     cursor: pointer;
 }
 
-/*.listParents {
-    border: 2px solid #000;
-    background-color: #8AC;
-    width: 98%;
-    border-collapse: collapse;
+#projects > div > a > img{
+    max-width: 384px;
+    max-height: 128px;
+    width: auto;
+    height: auto;
 }
-
-.listParents > tbody > tr {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 2px solid #000;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.listParents > tbody > tr:last-child {
-    border-bottom: none;
-}
-
-.listParents > tbody > tr > td:first-child {
-    width: 15%;
-}
-
-.listParents > tbody > tr > td {
-    display: flex;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-right: 2px solid #000;
-    box-sizing: border-box;
-}
-
-.listParents > tbody > tr > td:last-child {
-    border-right: none;
-}*/

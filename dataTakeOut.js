@@ -52,20 +52,21 @@ const categoryClicked = (e, input, output) => {
 }
 
 const showProjects = (subjects) => {
-    if (!subjects){
-        subjects = envData;
-    }
     projectsList.innerHTML = "";
     projects.forEach(project => {
-        if (!subjects.some(subject => project.environment.includes(subject))) return;
+        if (subjects) if (!subjects.every(subject => project.environment.includes(subject))) return;
         const container = document.createElement("div");
         const img = document.createElement("img");
         img.src = project.img;
         img.alt = "画像が読み込めません";
+        const url = document.createElement("a");
+        url.href = project.url;
+        url.target = "_blank";
+        url.appendChild(img);
         const name = document.createElement("h5");
         name.textContent = project.name;
         const time = document.createElement("p");
-        time.textContent = "作成時期" + project.time;
+        time.textContent = "作成時期: " + project.time;
         const environment = document.createElement("div");
         environment.classList.add("categories");
         project.environment.forEach(env => {
@@ -77,13 +78,18 @@ const showProjects = (subjects) => {
         const explanation = document.createElement("p");
         explanation.innerHTML = project.explanation;
 
-        container.appendChild(img);
+        container.appendChild(url);
         container.appendChild(name);
         container.appendChild(time);
         container.appendChild(environment);
         container.appendChild(explanation);
         projectsList.appendChild(container);
     })
+    if (!projectsList.hasChildNodes()) {
+        const container = document.createElement("p");
+        container.textContent = "該当するプロジェクトはありません";
+        projectsList.appendChild(container);
+    }
 }
 
 ND.onclick = () => {
