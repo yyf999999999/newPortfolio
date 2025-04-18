@@ -80,7 +80,7 @@
     ],
     "projects": [
         {
-            "img": "/images/3DBollRolling.png",
+            "img": "./images/3DBollRolling.png",
             "url": "https://scratch.mit.edu/projects/550561891/",
             "name": "ボールころころ3D2",
             "time": "中学生",
@@ -91,7 +91,7 @@
             "toggle": false
         },
         {
-            "img": "/images/rollAndRun.png",
+            "img": "./images/rollAndRun.png",
             "url": "https://scratch.mit.edu/projects/571837353/",
             "name": "roll and run!",
             "time": "中学生",
@@ -102,7 +102,7 @@
             "toggle": false
         },
         {
-            "img": "/images/newHorizontalScrollActionGame.png",
+            "img": "./images/newHorizontalScrollActionGame.png",
             "url": "https://scratch.mit.edu/projects/643606659/",
             "name": "新横スクロールアクションゲーム2",
             "time": "中学生",
@@ -113,7 +113,7 @@
             "toggle": false
         },
         {
-            "img": "/images/actionGame.png",
+            "img": "./images/actionGame.png",
             "url": "https://yyf999999999.github.io/portfolio/actiongame/actiongame.html",
             "name": "アクションゲーム",
             "time": "高専1年生",
@@ -126,7 +126,7 @@
             "toggle": false
         },
         {
-            "img": "/images/englishWordLearning.png",
+            "img": "./images/englishWordLearning.png",
             "url": "https://yyf999999999.github.io/portfolio/Englishwords_study/Englishwords_study.html",
             "name": "英単語学習",
             "time": "高専2年生",
@@ -139,7 +139,7 @@
             "toggle": false
         },
         {
-            "img": "/images/Shogimodoki.png",
+            "img": "./images/Shogimodoki.png",
             "url": "https://github.com/yyf999999999/Shogimodoki",
             "name": "将棋もどき",
             "time": "高専2年生",
@@ -152,7 +152,7 @@
             "toggle": false
         },
         {
-            "img": "/images/don'tDropUnits.png",
+            "img": "./images/don'tDropUnits.png",
             "url": "https://yyf999999999.github.io/typingprot/pages/difficultySelecter.html",
             "name": "単位を落とすな!",
             "time": "高専2年生",
@@ -191,7 +191,7 @@
             "toggle": true
         },
         {
-            "img": "/images/autoSudoku.png",
+            "img": "./images/autoSudoku.png",
             "url": "https://yyf999999999.github.io/autoSudoku/",
             "name": "ナンプレオート",
             "time": "高専3年生",
@@ -204,7 +204,7 @@
             "toggle": false
         },
         {
-            "img": "/images/image_shower.png",
+            "img": "./images/image_shower.png",
             "url": "https://yyf999999999.github.io/image_shower/",
             "name": "画像表示",
             "time": "高専3年生",
@@ -217,7 +217,7 @@
             "toggle": false
         },
         {
-            "img": "/images/how2UseCanvas.png",
+            "img": "./images/how2UseCanvas.png",
             "url": "https://yyf999999999.github.io/how2usecanvas/index.html",
             "name": "canvasの使い方",
             "time": "高専3年生",
@@ -230,7 +230,7 @@
             "toggle": false
         },
         {
-            "img": "/images/TodoApp.png",
+            "img": "./images/TodoApp.png",
             "url": "https://yyf999999999.github.io/react-todo-app/",
             "name": "Todoアプリ",
             "time": "高専3年生",
@@ -244,7 +244,7 @@
             "toggle": false
         },
         {
-            "img": "/images/CoordRouteMapMaker.png",
+            "img": "./images/CoordRouteMapMaker.png",
             "url": "https://coord-route-map-maker.vercel.app/",
             "name": "Coord-RouteMapMaker",
             "time": "高専3年生",
