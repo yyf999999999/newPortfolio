@@ -75,14 +75,30 @@ const showProjects = (subjects) => {
             container.textContent = env;
             environment.appendChild(container);
         });
-        const explanation = document.createElement("p");
-        explanation.innerHTML = project.explanation;
+        const explanationContainer = document.createElement("div");
+        if (project.toggle){
+            explanationContainer.classList.add("toggle-block");
+            const explanationButton = document.createElement("button");
+            explanationButton.classList.add("toggle-button");
+            explanationButton.textContent = "▼詳しく";
+            const explanation = document.createElement("p");
+            explanation.classList.add("toggle-content");
+            explanation.classList.add("hidden");
+            explanation.innerHTML = project.explanation;
+            
+            explanationContainer.appendChild(explanationButton);
+            explanationContainer.appendChild(explanation);
+        }else{
+            const explanation = document.createElement("p");
+            explanation.innerHTML = project.explanation;
+            explanationContainer.appendChild(explanation);
+        }
 
         container.appendChild(url);
         container.appendChild(name);
         container.appendChild(time);
         container.appendChild(environment);
-        container.appendChild(explanation);
+        container.appendChild(explanationContainer);
         projectsList.appendChild(container);
     })
     if (!projectsList.hasChildNodes()) {
@@ -141,3 +157,13 @@ envData.forEach(env => {
 });
 
 showProjects();
+
+document.querySelectorAll(".toggle-block").forEach(block => {
+    const button = block.querySelector(".toggle-button");
+    const content = block.querySelector(".toggle-content");
+
+    button.addEventListener("click", () => {
+        const isHidden = content.classList.toggle("hidden");
+        button.textContent = isHidden ? "▼詳しく" : "▲閉じる";
+    });
+});
