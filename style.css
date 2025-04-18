@@ -150,9 +150,13 @@ main{
 }
 
 #projects > *{
-    width: 384px;
-    margin: 10px;
+    width: 352px;
+    margin: 20px;
     margin-top: 100px;
+}
+
+#projects > div > div > p{
+    text-align: left;
 }
 
 .modal{
@@ -187,7 +191,7 @@ main{
 }
 
 #projects > div > a > img{
-    max-width: 384px;
+    max-width: 352px;
     max-height: 128px;
     width: auto;
     height: auto;

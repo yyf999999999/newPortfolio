@@ -64,6 +64,11 @@
         },
         {
             "img": "",
+            "name": "React",
+            "explanation": "UIを作りこんだ作品に使用。<br>Tailwind CSSを活用してそこそこのUIを作れる程度。"
+        },
+        {
+            "img": "",
             "name": "Vercel",
             "explanation": "バックエンドのAPIを用いた作品の公開に使用。<br>調べながらデプロイなどができる程度。"
         },
@@ -93,7 +98,7 @@
             "environment": [
                 "Scratch"
             ],
-            "explanation": "",
+            "explanation": "ダメージ床やビーム床などの簡単なギミックがある3Dゲーム。",
             "toggle": false
         },
         {
@@ -104,7 +109,7 @@
             "environment": [
                 "Scratch"
             ],
-            "explanation": "",
+            "explanation": "多彩なボスが魅力的な横スクロールアクションゲーム。",
             "toggle": false
         },
         {
@@ -117,7 +122,7 @@
                 "JavaScript",
                 "VSCode"
             ],
-            "explanation": "",
+            "explanation": "JavaScriptに触れてみるために趣味で作ったシンプルなアクションゲーム。",
             "toggle": false
         },
         {
@@ -130,7 +135,7 @@
                 "JavaScript",
                 "VSCode"
             ],
-            "explanation": "",
+            "explanation": "英検用の単語を勉強するために作ったアプリ。<br>任意の英単語表を作ったり、問題出題をしたりできる。",
             "toggle": false
         },
         {
@@ -143,7 +148,7 @@
                 "GoogleColab",
                 "Github"
             ],
-            "explanation": "",
+            "explanation": "授業でGoogleColabの自由課題が出た際に作ったアプリ。<br>取った駒を使うなどの一部機能は実装されていない。",
             "toggle": false
         },
         {
@@ -156,7 +161,7 @@
                 "JavaScript",
                 "VSCode"
             ],
-            "explanation": "",
+            "explanation": "高専祭での展示用に作ったタイピングゲーム。<br>htmlやcss、JavaScriptのほとんどを自分で書いた。",
             "toggle": false
         },
         {
@@ -169,7 +174,7 @@
                 "VSCode",
                 "Github"
             ],
-            "explanation": "",
+            "explanation": "制作時期…2024年1月<br>スパイダーマンのように糸(このゲームの場合フック)を飛ばし、<br>縦横無尽に駆け回ることを目的としたアクションゲームです。<br>操作方法<br>左右矢印キーで移動。<br>上矢印キーでジャンプ。<br>左クリックでマウスポインターの方向にフックを飛ばす。<br>フックが地形に当たると固定され、<br>左クリックしている間フックの位置へ移動できる。<br>フックが固定された後右クリックすると、フックが戻ってくる。<br>落ちると最初からやり直し。<br>矢印の方向へ進むと、旗にたどり着く。<br>旗をとればゲームクリア。",
             "toggle": true
         },
         {
@@ -182,7 +187,7 @@
                 "VSCode",
                 "Github"
             ],
-            "explanation": "",
+            "explanation": "制作時期…2024年2月<br>制作時間…約8時間<br>数式を入力し、その数式のグラフの大まかな形を表示するアプリです。<br>左上の数式入力欄に数式を入力し、追加を押すことでグラフを表示できます。<br>最大五個まで追加でき、クリアを押すことでグラフをリセットできます。<br>グラフの表示範囲はグラフの下にある移動マークで移動でき、<br>虫眼鏡マークで拡大縮小できます。(左クリックが縮小、右クリックが拡大)<br>残りの操作も大体はマークや英語の説明から読み取れます。<br>グラフの表示範囲を変更するとグラフが途切れますが、<br>グラフ右下のリロードを押すことできちんと表示できます。<br>グラフの表示範囲は拡大しすぎると処理が重くなり、縮小しすぎるとガタガタになります。<br>以下数式の入力方法(sympy.sympify()で実行)<br>足し算の例…x+3,7+1<br>引き算の例…x-6,3-5<br>掛け算の例…5*x,6*3<br>割り算の例…3/x,8/2<br>累乗の例…x**3,5**x<br>平方根の例…x**0.5<br>対数の例…log(x,2) (底が2)<br>三角関数の例(弧度法)…sin(x),cos(x/5)<br>など<br>",
             "toggle": true
         },
         {
@@ -195,7 +200,7 @@
                 "JavaScript",
                 "VSCode"
             ],
-            "explanation": "",
+            "explanation": "自動でナンプレを解いてもらうために作ったアプリ。<br>複数解を持つナンプレは解けない。",
             "toggle": false
         },
         {
@@ -208,7 +213,7 @@
                 "JavaScript",
                 "VSCode"
             ],
-            "explanation": "",
+            "explanation": "絵のトレスをしてみたかったので作ったアプリ。<br>トレスした位置まで拡大縮小して画像固定表示ボタンを押すことで、スマホで触れても画像が動かなくなるので、紙を押し当ててトレスすることができる。",
             "toggle": false
         },
         {
@@ -221,7 +226,7 @@
                 "JavaScript",
                 "VSCode"
             ],
-            "explanation": "",
+            "explanation": "情報の授業でJavaScriptの機能の説明として作ったサイト。",
             "toggle": false
         },
         {
@@ -232,9 +237,10 @@
             "environment": [
                 "HTML/CSS",
                 "TypeScript",
-                "VSCode"
+                "VSCode",
+                "React"
             ],
-            "explanation": "",
+            "explanation": "プログラミングの授業でReactを使って作ったアプリ。<br>UIを特に意識して作った。",
             "toggle": false
         },
         {
@@ -246,9 +252,10 @@
                 "HTML/CSS",
                 "TypeScript",
                 "VSCode",
-                "Vercel"
+                "Vercel",
+                "React"
             ],
-            "explanation": "a",
+            "explanation": "制作時期…2025年2月<br>制作時間…約25時間<br>座標を入力して路線図を作成できるWebアプリです。<br>座標の入力で駅を追加するという特性上、クラフトゲームなどで作成した鉄道の路線図作成などに向いています。<br>以下の操作で路線図を作成できます。<br>1.駅を座標の入力で追加する<br>2.路線を追加し、駅を選択する。<br>3.路線に対する駅の順番を整える。<br>4.以下繰り返し<br>作成した路線図はインターネット上に保存することが可能です。<br>未だ開発中であり、路線図の共有機能やオフラインへの保存機能を追加予定です。",
             "toggle": true
         }
     ]
