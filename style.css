@@ -36,7 +36,6 @@ main{
     height: 100%;
     padding-left: 0.8%;
     padding-right: 0.8%;
-    padding-top: 24px;
 }
 
 #center{
@@ -75,6 +74,7 @@ main{
     padding: 5px 10px;
     border-radius: 4px;
     position: absolute;
+    color: black;
 }
 
 .profile{

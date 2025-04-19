@@ -22,6 +22,20 @@ const modal = document.getElementById("narrowDownModal");
 const openBtn = document.getElementById("openNarrowDownModal");
 const closeBtn = document.querySelector(".close-button");
 
+let header = document.querySelector("header");
+let inner = document.getElementById("inner");
+let headerHeight = header ? header.offsetHeight : 0;
+
+const adjustPadding = () => {
+    header = document.querySelector("header");
+    inner = document.getElementById("inner");
+
+    if (header && inner) {
+        headerHeight = header.offsetHeight;
+        inner.style.paddingTop = `${headerHeight}px`;
+    }
+}
+
 const categoryClicked = (e, input, output) => {
     if (currentCategory === e.target.textContent) {
         output.innerHTML = "";
@@ -167,3 +181,24 @@ document.querySelectorAll(".toggle-block").forEach(block => {
         button.textContent = isHidden ? "▼詳しく" : "▲閉じる";
     });
 });
+
+document.querySelectorAll(".scroll-link").forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        const targetId = this.dataset.target;
+        const targetEl = document.getElementById(targetId);
+
+        if (targetEl && header) {
+            const y = targetEl.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+            window.scrollTo({
+                top: y,
+                behavior: "smooth"
+            });
+        }
+    });
+});
+
+window.addEventListener("DOMContentLoaded", adjustPadding);
+window.addEventListener("resize", adjustPadding);
