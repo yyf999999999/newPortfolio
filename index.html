@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>靴下のポートフォリオ(仮)</title>
+    <title>靴下のポートフォリオ</title>
 </head>
 <body>
     <header>
-        <h2>靴下のポートフォリオ(仮)</h2>
-        <p>▼目次(未実装)</p>
+        <h2>靴下のポートフォリオ</h2>
+        <a href="#" class="scroll-link" data-target="contents">
+            目次
+        </a>
     </header>
     <main>
         <div class="edge"></div>
         <div id="center">
             <div id="inner">
                 <h1>靴下のポートフォリオ</h1>
-                <h2>目次</h2>
+                <section id="contents">
+                    <h2>目次</h2>
+                </section>
                 <div class="imageBoxesParent">
                     <a href="#" class="scroll-link" data-target="about">
                         <div class="imageBox">
@@ -80,7 +84,20 @@
                 </div>
                 <button class="button" id="openNarrowDownModal">絞り込み</button>
                 <div id="projects"></div>
+                
                 <script type="module" src="dataTakeOut.js"></script>
+
+                <div id="last">
+                    <h4>注意</h4>
+                    <div>
+                        このポートフォリオは一部のブラウザで正しく要素が表示されません。<br>
+                        Google ChromeやMicrosoft Edgeなどのブラウザで閲覧することを推奨します。<br>
+                        どうしても表示されない場合は、
+                        <a href="https://yyf999999999.github.io/portfolio/main/portfolio.html" target="_blank">旧ポートフォリオ</a>
+                        をご覧ください。
+                    </div>
+                </div>
+                
             </div>
         </div>
         <div class="edge"></div>

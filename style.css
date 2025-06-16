@@ -18,6 +18,7 @@ header > *{
     font-weight: bold;
     font-size: 24px;
     margin: 0px;
+    text-decoration: none;
 }
 
 main{
@@ -207,4 +208,8 @@ main{
     font: inherit;
     margin: 5px;
     cursor: pointer;
+}
+
+#last{
+    margin-bottom: 20px;
 }
