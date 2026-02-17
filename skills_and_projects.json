@@ -302,6 +302,20 @@
             ],
             "explanation": "プログラミングの授業で作った認証システム。<br>元の雛形に、role区別やメール認証機能を追加した。",
             "toggle": false
+        },
+        {
+            "img": "./images/DrizzleORM.png",
+            "url": "https://yyf999999999.github.io/SQL_Articles/Drizzle_ORM.html",
+            "name": "Drizzle ORMで学ぶSQLの実行性能",
+            "time": "高専4年生",
+            "environment": [
+                "HTML/CSS",
+                "TypeScript",
+                "VSCode",
+                "Github"
+            ],
+            "explanation": "データベース工学の授業で作った記事。<br>ORMを利用したアプリケーション開発と、データベース内部の動作との関係を実験を通して理解することを目的としている。",
+            "toggle": false
         }
     ]
 }
